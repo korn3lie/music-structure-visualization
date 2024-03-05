@@ -1,12 +1,12 @@
-# <ins>Music Structure Visualization</ins>
+# __Music Structure Visualization__
 ![Results Sample](https://github.com/korn3lie/music-structure-visualization/blob/master/other/video_sample.gif)
 
 
-### <ins>Goal</ins>: 
+### __Goal__: 
 
 Split an audio recording into segments, group them into musically meaningful categories, and produce a pretty visualization.
 
-### <ins>Pipeline</ins>:
+### __Pipeline__:
 
 1. Input: audio path.
 2. Compute a [self-similarity matrix](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C4/C4S2_SSM.html) with path enchancement and thresholding.
@@ -17,5 +17,8 @@ Split an audio recording into segments, group them into musically meaningful cat
 6. Create the list of frames for the video.
 7. Output: video with audio.
 
-<ins>Libraries</ins>: librosa, libfmp, OpenCV, MoviePy.
-<ins>Skilled up</ins>: Music Processing Analysis, Image & Video Processing.
+<br/>
+
+__Libraries__: librosa, libfmp, OpenCV, MoviePy.
+
+__Skilled up__: Music Processing Analysis, Image & Video Processing.
